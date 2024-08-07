@@ -8,8 +8,32 @@
         <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
     </head>
     <body>
-        <a-scene background="color: black">
-            <a-sphere position="6 0 3" color="blue"></a-sphere>
+        <a-scene background="color: skyblue">
+            <!--wall-->
+            <a-box position="0 0 5" height="1000" width="1000"></a-box>
+            <!--sun-->
+            <a-sphere position="0 100 -300" radius="10" color="yellow"></a-sphere>
+            <!--bulildings-->
+            <a-box position="15 0 -25" height="1000" width="9" depth="30" color="maroon"></a-box>
+            <a-box position="-15 0 -25" height="1000" width="9" depth="30" color="brown"></a-box>
+            <a-box position="15 0 -70" height="1000" width="9" depth="30" color="darkgray"></a-box>
+            <a-box position="-15 0 -70" height="1000" width="9" depth="30" color="rgb(250, 249, 219)"></a-box>
+            <a-box position="15 0 -115" height="1000" width="9" depth="30" color="rgb(230, 198, 127)"></a-box>
+            <a-box position="-15 0 -115" height="1000" width="9" depth="30" color="rgb(250, 238, 212)"></a-box>
+            <a-box position="15 0 -160" height="1000" width="9" depth="30" color="rgb(13, 131, 222)"></a-box>
+            <a-box position="-15 0 -160" height="1000" width="9" depth="30"></a-box>
+            <a-box position="15 0 -205" height="1000" width="9" depth="30"></a-box>
+            <a-box position="-15 0 -205" height="1000" width="9" depth="30"></a-box>
+            <a-box position="15 0 -250" height="1000" width="9" depth="30"></a-box>
+            <a-box position="-15 0 -250" height="1000" width="9" depth="30"></a-box>
+            <a-box position="15 0 -295" height="1000" width="9" depth="30"></a-box>
+            <a-box position="-15 0 -295" height="1000" width="9" depth="30"></a-box>
+            <a-box position="15 0 -330" height="1000" width="9" depth="30"></a-box>
+            <a-box position="-15 0 -330" height="1000" width="9" depth="30"></a-box>
+
+            <!--floor-->
+            <a-box position="0 -2 0" color="gray" width="1000" depth="1000"></a-box>
+            <a-box color="black" position="0 -1.9 0" width="10" depth="1000"></a-box>
         </a-scene>
         <script src="script.js"></script>
     </body>
