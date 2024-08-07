@@ -12,7 +12,7 @@
             <!--wall-->
             <a-box position="0 0 5" height="1000" width="1000"></a-box>
             <!--sun-->
-            <a-sphere position="0 100 -300" radius="10" color="yellow" light="type: ambient; color: white;"></a-sphere>
+            <a-sphere position="0 150 -300" radius="10" color="yellow" light="type: ambient; color: white;"></a-sphere>
             <!--bulildings-->
             <a-box position="15 0 -25" height="100" width="9" depth="30" color="rgb(255, 254, 208)"></a-box>
             <a-box position="-15 0 -25" height="100" width="9" depth="30" color="rgb(189, 169, 91)"></a-box>
@@ -26,6 +26,7 @@
             <a-box position="20 0 -130" height="160" width="9" depth="30" color="rgb(245, 240, 230)"></a-box>
             <!--skyscrapers-->
             <a-box position="25 0 -165" height="300" width="20" depth="30" color="rgb(47, 124, 255)"></a-box>
+            <a-cylinder position="25 180 -165" color="black" height="50"></a-cylinder>
             <a-box position="-25 0 -165" height="300" width="20" depth="30" color="rgb(33, 96, 204)"></a-box>
             <a-box position="25 0 -200" height="300" width="20" depth="30" color="rgb(67, 101, 161)"></a-box>
             <a-box position="-25 0 -200" height="300" width="20" depth="30" color="rgb(8, 63, 156)"></a-box>
@@ -34,9 +35,9 @@
             <a-box position="25 0 -270" height="300" width="20" depth="30" color="rgb(131, 177, 255)"></a-box>
             <a-box position="-25 0 -270" height="300" width="20" depth="30" color="rgb(47, 124, 255)"></a-box>
             <!--crosswalk-->
-            <a-box position="0 -1.8 -10" width="10" color="white"></a-box>
-            <a-box position="0 -1.8 -20" width="10" color="white"></a-box>
-            <a-box position="0 -1.8 -15" depth="9"></a-box>
+            <a-box position="0 -1.7 -10" width="10" color="white"></a-box>
+            <a-box position="0 -1.7 -20" width="10" color="white"></a-box>
+            <a-box position="0 -1.7 -15" depth="9"></a-box>
             <a-box position="2 -1.8 -15" depth="9"></a-box>
             <a-box position="4 -1.8 -15" depth="9"></a-box>
             <a-box position="-2 -1.8 -15" depth="9"></a-box>
@@ -45,13 +46,83 @@
             <a-cylinder position="-7 0 -25" radius="0.2" color="black" height="10" rotation=""></a-cylinder>
             <a-cylinder position="-5.3 6.7 -25" radius="0.2" color="black" height="5" rotation="0 0 -45"></a-cylinder>
             <a-circle position="-2.7 8.5 -25" rotation="90 0 0"></a-circle>
-
             <a-cylinder position="7 0 -25" radius="0.2" color="black" height="10" rotation=""></a-cylinder>
             <a-cylinder position="5.3 6.7 -25" radius="0.2" color="black" height="5" rotation="0 0 45"></a-cylinder>
             <a-circle position="2.7 8.5 -25" rotation="90 0 0"></a-circle>
-            <!--floor-->
+
+            <a-cylinder position="-7 0 -40" radius="0.2" color="black" height="10" rotation=""></a-cylinder>
+            <a-cylinder position="-5.3 6.7 -40" radius="0.2" color="black" height="5" rotation="0 0 -45"></a-cylinder>
+            <a-circle position="-2.7 8.5 -40" rotation="90 0 0"></a-circle>
+            <a-cylinder position="7 0 -40" radius="0.2" color="black" height="10" rotation=""></a-cylinder>
+            <a-cylinder position="5.3 6.7 -40" radius="0.2" color="black" height="5" rotation="0 0 45"></a-cylinder>
+            <a-circle position="2.7 8.5 -40" rotation="90 0 0"></a-circle>
+
+            <a-cylinder position="-7 0 -55" radius="0.2" color="black" height="10" rotation=""></a-cylinder>
+            <a-cylinder position="-5.3 6.7 -55" radius="0.2" color="black" height="5" rotation="0 0 -45"></a-cylinder>
+            <a-circle position="-2.7 8.5 -55" rotation="90 0 0"></a-circle>
+            <a-cylinder position="7 0 -55" radius="0.2" color="black" height="10" rotation=""></a-cylinder>
+            <a-cylinder position="5.3 6.7 -55" radius="0.2" color="black" height="5" rotation="0 0 45"></a-cylinder>
+            <a-circle position="2.7 8.5 -55" rotation="90 0 0"></a-circle>
+
+            <a-cylinder position="-7 0 -70" radius="0.2" color="black" height="10" rotation=""></a-cylinder>
+            <a-cylinder position="-5.3 6.7 -70" radius="0.2" color="black" height="5" rotation="0 0 -45"></a-cylinder>
+            <a-circle position="-2.7 8.5 -70" rotation="90 0 0"></a-circle>
+            <a-cylinder position="7 0 -70" radius="0.2" color="black" height="10" rotation=""></a-cylinder>
+            <a-cylinder position="5.3 6.7 -70" radius="0.2" color="black" height="5" rotation="0 0 45"></a-cylinder>
+            <a-circle position="2.7 8.5 -70" rotation="90 0 0"></a-circle>
+
+
+            <!--street-->
             <a-box position="0 -2 0" color="gray" width="1000" depth="1000"></a-box>
             <a-box color="black" position="0 -1.9 0" width="10" depth="1000"></a-box>
+            <a-box color="yellow" depth="1000" position="0 -1.8 -25"></a-box>
+            <!--trees-->
+            <a-cylinder position="6 0 -9" radius="0.5" height="5" color="rgb(89, 45, 4)"></a-cylinder>
+            <a-icosahedron position="6 3.8 -9" color="rgb(75, 214, 5)" radius="1.5"></a-icosahedron>
+            <a-cylinder position="-6 0 -9" radius="0.5" height="5" color="rgb(89, 45, 4)"></a-cylinder>
+            <a-icosahedron position="-6 3.8 -9" color="rgb(75, 214, 5)" radius="1.5"></a-icosahedron>
+
+            <a-cylinder position="6 0 -30" radius="0.5" height="5" color="rgb(89, 45, 4)"></a-cylinder>
+            <a-icosahedron position="6 3.8 -30" color="rgb(75, 214, 5)" radius="1.5"></a-icosahedron>
+            <a-cylinder position="-6 0 -30" radius="0.5" height="5" color="rgb(89, 45, 4)"></a-cylinder>
+            <a-icosahedron position="-6 3.8 -30" color="rgb(75, 214, 5)" radius="1.5"></a-icosahedron>
+
+            <a-cylinder position="6 0 -51" radius="0.5" height="5" color="rgb(89, 45, 4)"></a-cylinder>
+            <a-icosahedron position="6 3.8 -51" color="rgb(75, 214, 5)" radius="1.5"></a-icosahedron>
+            <a-cylinder position="-6 0 -51" radius="0.5" height="5" color="rgb(89, 45, 4)"></a-cylinder>
+            <a-icosahedron position="-6 3.8 -51" color="rgb(75, 214, 5)" radius="1.5"></a-icosahedron>
+
+            <!--trash bins-->
+            <a-cylinder position="5.5 -0.5 -10" radius="0.4" height="1.5" color="rgb(83, 87, 81)"></a-cylinder>
+            <a-cylinder position="-5.5 -0.5 -10" radius="0.4" height="1.5" color="rgb(83, 87, 81)"></a-cylinder>
+            <a-cylinder position="5.5 -0.5 -31" radius="0.4" height="1.5" color="rgb(83, 87, 81)"></a-cylinder>
+            <a-cylinder position="-5.5 -0.5 -31" radius="0.4" height="1.5" color="rgb(83, 87, 81)"></a-cylinder>
+            <a-cylinder position="5.5 -0.5 -52" radius="0.4" height="1.5" color="rgb(83, 87, 81)"></a-cylinder>
+            <a-cylinder position="-5.5 -0.5 -52" radius="0.4" height="1.5" color="rgb(83, 87, 81)"></a-cylinder>
+
+            <!--text-->
+            <a-text value="NYC" width="100" position="-5 15 -20"></a-text>
+            <!--people-->
+            <a-sphere position="0 2.5 -10" radius="0.5" color="#fffdd0"></a-sphere>
+            <a-circle position="-0.3 2.6 -9.5" radius="0.1" color="black"></a-circle>
+            <a-circle position="0.3 2.6 -9.5" radius="0.1" color="black"></a-circle>
+            <a-cylinder position="0 0 -10" radius="0.2" height="4" color="#fffdd0"></a-cylinder>
+
+            <a-sphere position="2 2.5 -10" radius="0.5" color="#fffdd0"></a-sphere>
+            <a-circle position="1.7 2.6 -9.5" radius="0.1" color="black"></a-circle>
+            <a-circle position="2.3 2.6 -9.5" radius="0.1" color="black"></a-circle>
+            <a-cylinder position="2 0 -10" radius="0.2" height="4" color="#fffdd0"></a-cylinder>
+
+            <a-sphere position="6 2.5 -17" radius="0.5" color="#fffdd0"></a-sphere>
+            <a-circle position="5.7 2.6 -16.5" radius="0.1" color="black"></a-circle>
+            <a-circle position="6.3 2.6 -16.5" radius="0.1" color="black"></a-circle>
+            <a-cylinder position="6 0 -17" radius="0.2" height="4" color="#fffdd0"></a-cylinder>
+
+            <a-sphere position="-6 2.5 -17" radius="0.5" color="#fffdd0"></a-sphere>
+            <a-circle position="-5.7 2.6 -16.5" radius="0.1" color="black"></a-circle>
+            <a-circle position="-6.3 2.6 -16.5" radius="0.1" color="black"></a-circle>
+            <a-cylinder position="-6 0 -17" radius="0.2" height="4" color="#fffdd0"></a-cylinder>
+
         </a-scene>
         <script src="script.js"></script>
     </body>
